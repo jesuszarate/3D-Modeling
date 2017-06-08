@@ -2,7 +2,7 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Tue May 23 15:04:55 2017
+;; Created Wed Jun  7 19:26:55 2017
 ;; Desktop file format version 206
 ;; Emacs version 22.1.1
 
@@ -16,24 +16,13 @@
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/Users/jesuszarate/SchoolSemesters/Summer2017/3D-Modeling/week1/ScreenShotDoc/silhouette.tex"
-  "silhouette.tex"
-  'latex-mode
+  "/Users/jesuszarate/SchoolSemesters/Summer2017/3D-Modeling/week3/.gitignore"
+  ".gitignore"
+  'fundamental-mode
   nil
-  613
-  '(613 t)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . mule-utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/Users/jesuszarate/SchoolSemesters/Summer2017/3D-Modeling/week1/ScreenShotDoc/Week1Check-in.tex"
-  "Week1Check-in.tex"
-  'latex-mode
-  nil
-  1260
-  '(1155 t)
+  2196
+  '(nil nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-file-coding-system . mule-utf-8)))
+  '((buffer-file-coding-system . mule-utf-8)))
 
