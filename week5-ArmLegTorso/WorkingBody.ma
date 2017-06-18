@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: WorkingBody.ma
-//Last modified: Sun, Jun 18, 2017 04:50:39 PM
+//Last modified: Sun, Jun 18, 2017 05:01:28 PM
 //Codeset: UTF-8
 requires maya "2017";
 requires "stereoCamera" "10.0";
