@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: WorkingBody.ma
-//Last modified: Sat, Jun 17, 2017 11:11:23 PM
+//Last modified: Sun, Jun 18, 2017 04:50:39 PM
 //Codeset: UTF-8
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -14,13 +14,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "C8B23AA9-544C-90AF-C66C-6BAA1464B7EA";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 330.85475013257491 43.345645041150178 -17.842161582209968 ;
-	setAttr ".r" -type "double3" -4.5383527248864661 2609.399999996218 -3.7965768608622842e-14 ;
+	setAttr ".t" -type "double3" 22.237486747915959 36.70407931052663 192.03930843907969 ;
+	setAttr ".r" -type "double3" -2.7383527270135968 2894.1999999950804 1.0252494769749135e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "728FE815-604F-9C3C-B79B-48B41ABB0D24";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 358.03052936827578;
+	setAttr ".coi" 212.9671100443436;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -87,7 +87,7 @@ createNode mesh -n "body:polySurfaceShape1" -p "body:polySurface1";
 	setAttr -s 18 ".iog[0].og";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.53467351198196411 0.54374149441719055 ;
+	setAttr ".pv" -type "double2" 0.84645897150039673 0.95268702507019043 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
@@ -129,14 +129,14 @@ createNode mesh -n "body:polySurfaceShape1" -p "body:polySurface1";
 	setAttr ".pt[1158]" -type "float3" 0 -0.89044464 0.66449034 ;
 	setAttr ".pt[1163]" -type "float3" 0 -0.35246998 -0.15876982 ;
 	setAttr ".pt[1165]" -type "float3" 0 0.00074500672 -0.07261806 ;
-	setAttr ".pt[1172]" -type "float3" 0 0.5682435 0.38688391 ;
+	setAttr ".pt[1172]" -type "float3" -0.14793178 0.61322337 -0.18424717 ;
 	setAttr ".pt[1173]" -type "float3" 0 0.41897199 -0.16137338 ;
 	setAttr ".pt[1174]" -type "float3" 0 0.050671622 -0.43908003 ;
 	setAttr ".pt[1175]" -type "float3" 0 -0.28312749 -0.57178807 ;
 	setAttr ".pt[1176]" -type "float3" 0 -0.85845423 -0.4734658 ;
 	setAttr ".pt[1177]" -type "float3" 0 0.20201932 0.81798673 ;
-	setAttr ".pt[1178]" -type "float3" 0 0.65164429 0.90642977 ;
-	setAttr ".pt[1179]" -type "float3" 0 0.66772586 0.77478075 ;
+	setAttr ".pt[1178]" -type "float3" 0.018832009 0.65164429 0.76895273 ;
+	setAttr ".pt[1179]" -type "float3" 0 0.66772586 0.46174872 ;
 	setAttr ".pt[1180]" -type "float3" 0.051952969 0.82644475 -2.3820124 ;
 	setAttr ".pt[1181]" -type "float3" -0.12612791 0.5858531 -1.7059773 ;
 	setAttr ".pt[1182]" -type "float3" -0.12388689 0.11539584 -1.4453584 ;
