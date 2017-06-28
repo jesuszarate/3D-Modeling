@@ -1,0 +1,50 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Tue Jun 27 22:33:43 2017
+;; Desktop file format version 206
+;; Emacs version 22.1.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/jesuszarate/SchoolSemesters/Summer2017/3D-Modeling/week5-ArmLegTorso/Week6Checkin/Week5Check-in.tex"
+  "Week5Check-in.tex"
+  'latex-mode
+  nil
+  522
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . mule-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/jesuszarate/SchoolSemesters/Summer2017/3D-Modeling/week6/Week6Checkin/Week6Check-in.tex"
+  "Week6Check-in.tex"
+  'latex-mode
+  nil
+  1008
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . mule-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/jesuszarate/SchoolSemesters/Summer2017/3D-Modeling/Week4-Torso/Week4Checkin/Week4Check-in.tex"
+  "Week4Check-in.tex"
+  'latex-mode
+  nil
+  1164
+  '(1049 t)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . mule-utf-8-unix)))
+
