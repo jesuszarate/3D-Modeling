@@ -2,7 +2,7 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Tue Jun 27 22:04:07 2017
+;; Created Wed Jul  5 23:59:57 2017
 ;; Desktop file format version 206
 ;; Emacs version 22.1.1
 
@@ -20,8 +20,8 @@
   "Week6Check-in.tex"
   'latex-mode
   nil
-  1008
-  '(nil nil)
+  1338
+  '(1009 t)
   nil
   nil
   '((indent-tabs-mode) (buffer-file-coding-system . mule-utf-8-unix)))
