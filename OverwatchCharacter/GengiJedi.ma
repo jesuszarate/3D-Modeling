@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: GengiJedi.ma
-//Last modified: Sat, Jul 29, 2017 11:24:29 PM
+//Last modified: Sat, Jul 29, 2017 11:27:57 PM
 //Codeset: UTF-8
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -15,7 +15,7 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "C70A0B7B-F84D-B45E-F5FE-BF83F9980DE2";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -20.085005511082045 16.501331188528699 316.2435576420163 ;
+	setAttr ".t" -type "double3" 15.067110152444283 20.026489338713439 528.5802753270533 ;
 	setAttr ".r" -type "double3" -0.93835282134852538 -350.59999999997655 -359.99999999998266 ;
 	setAttr ".rp" -type "double3" 1.4210854715202004e-14 0 -6.2172489379008766e-15 ;
 	setAttr ".rpt" -type "double3" -3.1983635102066896e-14 4.6157009240568808e-15 -7.8217346707854816e-15 ;
@@ -23,7 +23,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7E3811FA-0243-1904-EB85-97822C1D1D54";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 308.71072069453538;
+	setAttr ".coi" 523.96633537824323;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
