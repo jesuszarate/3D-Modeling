@@ -2,7 +2,7 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu Jun 15 00:51:02 2017
+;; Created Sat Aug  5 00:54:15 2017
 ;; Desktop file format version 206
 ;; Emacs version 22.1.1
 
@@ -15,6 +15,17 @@
 (setq register-alist nil)
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/jesuszarate/SchoolSemesters/Summer2017/3D-Modeling/Week4-Torso/Week4Checkin/JesusZarate_CharacterDesign.tex"
+  "JesusZarate_CharacterDesign.tex"
+  'latex-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . mule-utf-8)))
+
 (desktop-create-buffer 206
   "/Users/jesuszarate/SchoolSemesters/Summer2017/3D-Modeling/Week4-Torso/Week4Checkin/Week4Check-in.tex"
   "Week4Check-in.tex"
